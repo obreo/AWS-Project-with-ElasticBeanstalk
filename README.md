@@ -8,6 +8,7 @@ These services were used:
 Study case:
 ```
 A company based in UK wants to deploy its application on AWS. The application contains a website which is accessed by its customers mainly in Europe, but they want to expand their customer base soon in other parts of the world. The website is a NodeJS application using SQL based databases. Website should have the capacity to absorb incoming traffic as much as 10x of the usual traffic. It consists of lots of images which are stored and accessed at run time by the application. The infrastructure hosting this website should not be publicly accessible to ensure security. The infrastructure should be highly available and reliable enough to ensure no downtime as the company cannot afford any downtime since it's a business critical application. Some part ( Not All ) of the infrastructure should be in from of code so that its easy to replicate this infrastructure . You have to ensure the data is encrypted and only accessible to concerned people / services . As a solution architect you have to propose and design a fully secure and highly available infrastructure to the company with roughly estimated cost per month.
+
 ```
 
 Infrastructure used:
